@@ -1,0 +1,12 @@
+<suite name="junit">
+<test name="find links name on firefox">
+<classes>
+<class name="Monday.Class3Key">
+</classes>
+</test>
+<test name ="find link name on chrome">
+<classes>
+<class name="Monday.Class3Key">
+</classes>
+</test>
+</suite>

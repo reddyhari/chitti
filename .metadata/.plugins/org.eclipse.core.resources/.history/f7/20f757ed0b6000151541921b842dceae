@@ -1,0 +1,43 @@
+package Monday;
+
+
+
+import java.util.List;
+
+import org.junit.After;
+import org.junit.AfterClass;
+import org.junit.Before;
+import org.junit.BeforeClass;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class Class3Key
+{
+	WebDriver driver;
+	@BeforeClass
+	public void set()
+	{
+		driver= new FirefoxDriver();
+		driver.get("http://newtours.demoaut.com");
+		
+	}
+	@Before
+	public void method()
+	{
+		List<WebElement>links=driver.findElements(By.tagName("a"));
+		System.out.println(links.size());
+	}
+	@After
+	public void close()
+	{
+		driver.close();
+	}
+	@AfterClass
+	public void close2()
+	{
+		driver.quit();
+	}
+
+}

@@ -1,0 +1,10 @@
+<suite name="example suite 1" >
+ 
+<test name="links">
+	<parameter name="browser" value="chrome" />
+    <classes>
+      <class name="Monday.Class3Key"/>
+      
+    </classes>
+ </test>
+</suite>

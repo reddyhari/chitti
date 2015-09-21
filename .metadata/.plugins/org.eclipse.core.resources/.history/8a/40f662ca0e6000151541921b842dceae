@@ -1,0 +1,7 @@
+<suite name="junit">
+<test name="find links name on firefox">
+<classes>
+<class name="Monday.Class3Key">
+</classes>
+</test>
+</suite>

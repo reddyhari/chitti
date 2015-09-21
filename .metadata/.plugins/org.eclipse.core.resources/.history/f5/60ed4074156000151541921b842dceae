@@ -1,0 +1,16 @@
+<suite name="example suite 1" >
+  <test name="Regression">
+	<parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="Monday.Class3Key"/>
+     
+    </classes>
+ </test>
+<test name="Regression">
+	<parameter name="browser" value="chrome" />
+    <classes>
+      <class name="Monday.Class3Key"/>
+      
+    </classes>
+ </test>
+</suite>

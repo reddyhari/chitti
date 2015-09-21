@@ -1,0 +1,15 @@
+<suite name="example suite 1" verbose="1" >
+  <test name="Regression suite 1" >
+  
+    <classes>
+      <class name="Monday.Class1"/>
+     
+    </classes>
+ </test>
+<test name="Regression suite 1" >
+    <classes>
+      <class name="Monday.Class2"/>
+      
+    </classes>
+ </test>
+</suite>
